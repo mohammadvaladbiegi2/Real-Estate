@@ -1,5 +1,13 @@
 @import url(./reset.css);
 
+@font-face {
+    font-family: MontserratMedium;
+    src: url('../styls/fonts/static/Montserrat-Medium.ttf');
+}
+@font-face {
+    font-family:  AvenirNext;
+    src: url('../styls/fonts/AvenirNextLTPro-Regular.otf');
+}
 
 
 :root {
