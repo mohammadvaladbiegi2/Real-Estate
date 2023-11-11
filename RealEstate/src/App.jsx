@@ -5,9 +5,12 @@ import Navbar from "./componant/Navbar/Navbar";
 
 function App() {
   let rout = useRoutes(routs);
-  return <>
-  <Navbar/>
-  {rout}</>;
+  return (
+    <>
+      <Navbar />
+      {rout}
+    </>
+  );
 }
 
 export default App;
