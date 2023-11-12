@@ -1,0 +1,32 @@
+.bgStyle {
+    background: linear-gradient(180deg, rgba(109, 49, 208, 0.10) 0%, rgba(109, 49, 208, 0.21) 28.65%, rgba(109, 49, 208, 0.47) 53.12%, #6D31D0 100%);
+}
+
+.bgStyleIcon {
+    border-radius: 20px;
+    background: var(--pam_color_linear6, linear-gradient(90deg, #6D31D0 0%, #AB80EF 104.7%));
+}
+
+.bgStyleInput {
+    border-radius: 20px;
+    background: var(--pam_color6, #FFF);
+    box-shadow: 0px 4px 8px 0px rgba(28, 37, 44, 0.08);
+}
+
+.AvenirNext {
+    font-family: AvenirNext;
+}
+
+.AvenirNextBold {
+    font-family: AvenirNextBold;
+}
+.AvenirNextBlack {
+    font-family: AvenirNextBlack;
+}
+.AvenirNextLight {
+    font-family: AvenirNextLight;
+}
+
+.MontserratMedium {
+    font-family: MontserratMedium;
+}
