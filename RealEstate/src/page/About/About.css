@@ -4,7 +4,7 @@
 }
 
 @media screen and (min-width:1000px) and (max-width:1600px) {
-    .bgImage {
+    .bgImageAbout {
         background: url(../../../public/assets/images/about.png);    
     }
     .bgShadow {
@@ -12,7 +12,7 @@
     }
 }
 @media screen and (min-width:1600px) {
-    .bgImage {
+    .bgImageAbout {
         background: url(../../../public/assets/images/about.png);    
     }
     .bgShadow {
@@ -21,7 +21,7 @@
 }
 
 @media screen and (max-width:1000px) {
-    .bgImage {
+    .bgImageAbout {
         background: url(../../../public/assets/images/about2.png);
     }
     .bgShadow {

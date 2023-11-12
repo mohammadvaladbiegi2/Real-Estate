@@ -3,7 +3,7 @@ import "./Navbar.css";
 import logo from '../../../public/assets/images/logo.png'
 
 export default function Navbar() {
-	return <section className="">
+	return <section className="w-full fixed z-20">
 		<div className="flex justify-between px-[50px] min-[480px]:px-[110px] items-center bg- h-[120px] w-full sticky bg-gradient-to-r from-color5 to-color1">
 			<div className="w-[100px] md:w-[120px]">
 				<img src={logo} className="w-full" />

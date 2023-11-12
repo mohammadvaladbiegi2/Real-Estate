@@ -4,13 +4,13 @@ import routs from "./routs";
 import Navbar from "./componant/Navbar/Navbar";
 import ContactUs from "./componant/ContactUs/ContactUs";
 import About from "./page/About/About";
+import Migration from "./page/Migration/Migration";
 
 function App() {
   let rout = useRoutes(routs);
   return <>
   <Navbar/>
-  <About/>
-  <div className="bg-color3 py-20 text-center">Why We Do It – Our Values</div>
+  <Migration/>
   <ContactUs/>
   {rout}</>;
 }

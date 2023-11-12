@@ -7,7 +7,7 @@ export default function About() {
          <div className="absolute bgShadow h-[280px] min-[1000px]:h-[530px] bg-gradient-to-b min-[1000px]:bg-gradient-to-r from-color6 from-60% via-color7 via-80% to-100% z-10 flex justify-center items-center">
             <span className="AvenirNext uppercase text-4xl font-semibold text-black">Who we are</span>
          </div>
-         <div className="bgImage  min-[1000px]:right-0 h-[800px] min-[1000px]:h-[530px] w-full bg-no-repeat bg-center min-[1000px]:bg-right"></div>
+         <div className="bgImageAbout min-[1000px]:right-0 h-[800px] min-[1000px]:h-[530px] w-full bg-no-repeat bg-center min-[1000px]:bg-right"></div>
       </div>
       <div className="flex flex-col gap-8 justify-center  max-md:text-justify py-20  max-md:py-[60px] max-[1000px]:px-[110px] max-md:px-16 max-[480px]:px-11 bg-color1 text-color6 MontserratMedium leading-8 text-xl min-[1000px]:w-[780px] self-center font-semibold">
          <span>PAM Consulting is a team of dedicated professionals, located in Cyprus.
