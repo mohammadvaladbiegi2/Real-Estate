@@ -22,7 +22,7 @@ export default function Navbar() {
 					<div className="cursor-pointer">migration</div>
 					<div className="cursor-pointer">Contuct us</div>
 				</div>
-				<div className="max-md:hidden flex items-center justify-center text-color1 bg-color3 w-[180px] h-12 text-xl rounded-[30px] font-semibold" Montserrat>Get in touch</div>
+				<div className="max-md:hidden flex items-center justify-center text-color1 bg-color3 w-[180px] h-12 text-xl rounded-[30px] font-semibold cursor-pointer" Montserrat>Get in touch</div>
 				<div className="min-[1300px]:hidden cursor-pointer">
 					<svg width="40" height="30" viewBox="0 0 40 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<rect width="40" height="2" fill="white" />
