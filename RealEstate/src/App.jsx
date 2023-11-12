@@ -5,6 +5,7 @@ import Navbar from "./componant/Navbar/Navbar";
 
 function App() {
   let rout = useRoutes(routs);
+
   return (
     <>
       <Navbar />

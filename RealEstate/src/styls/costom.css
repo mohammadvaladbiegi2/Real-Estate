@@ -6,7 +6,19 @@
 }
 @font-face {
     font-family:  AvenirNext;
-    src: url('../styls/fonts/AvenirNextLTPro-Regular.otf');
+    src: url('../styls/fonts/AvenirNext/Metropolis-Medium.otf');
+}
+@font-face {
+    font-family:  AvenirNextBold;
+    src: url('../styls/fonts/AvenirNext/Metropolis-Bold.otf');
+}
+@font-face {
+    font-family:  AvenirNextBlack;
+    src: url('../styls/fonts/AvenirNext/Metropolis-Black.otf');
+}
+@font-face {
+    font-family:  AvenirNextLight;
+    src: url('../styls/fonts/AvenirNext/Metropolis-Light.otf');
 }
 
 
@@ -15,8 +27,8 @@
     --pam-color6: #FFF;
     --pam_color1: #6D31D0;
     --pam_color4: #FDBFA3;
-    --yelow-40:#FFEB80;
+    --yellow-40:#FFEB80;
     --pam_color2: #828CDE;
-    --block : #434364;
+    --black : #434364;
 }
 
