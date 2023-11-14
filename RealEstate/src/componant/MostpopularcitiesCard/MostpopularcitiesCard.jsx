@@ -3,7 +3,7 @@ import "./MostpopularcitiesCard.css";
 export default function MostpopularcitiesCard(props) {
   return (
     <>
-      <div className="main-card ">
+      <div className="main-cards ">
         <img src={`../public/assets/images/${props.cover}`} />
         <span className="main-text">{props.title}</span>
       </div>

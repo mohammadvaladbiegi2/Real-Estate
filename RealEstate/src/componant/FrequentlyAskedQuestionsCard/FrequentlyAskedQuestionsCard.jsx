@@ -4,7 +4,7 @@ import "./FrequentlyAskedQuestionsCard.css";
 export default function FrequentlyAskedQuestionsCard() {
   return (
     <>
-      <div className="Nav-container bg-slate-300">
+      <div className="Nav-container bg-color6">
         <img src="../public/assets/images/q&a_slider_card1_image.png" />
         <span className="main-text">
           Question: How is the business environment in Cyprus?
