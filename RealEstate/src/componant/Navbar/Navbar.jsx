@@ -3,7 +3,7 @@ import "./Navbar.css";
 import logo from '../../../public/assets/images/logo.png'
 
 export default function Navbar() {
-	return <section className="">
+	return <section className="w-full fixed z-20">
 		<div className="flex justify-between px-[50px] min-[480px]:px-[110px] items-center bg- h-[120px] w-full sticky bg-gradient-to-r from-color5 to-color1">
 			<div className="w-[100px] md:w-[120px]">
 				<img src={logo} className="w-full" />
@@ -22,7 +22,7 @@ export default function Navbar() {
 					<div className="cursor-pointer">migration</div>
 					<div className="cursor-pointer">Contuct us</div>
 				</div>
-				<div className="max-md:hidden flex items-center justify-center text-color1 bg-color3 w-[180px] h-12 text-xl rounded-[30px] font-semibold" Montserrat>Get in touch</div>
+				<div className="max-md:hidden flex items-center justify-center text-color1 bg-color3 w-[180px] h-12 text-xl rounded-[30px] font-semibold cursor-pointer" Montserrat>Get in touch</div>
 				<div className="min-[1300px]:hidden cursor-pointer">
 					<svg width="40" height="30" viewBox="0 0 40 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<rect width="40" height="2" fill="white" />
