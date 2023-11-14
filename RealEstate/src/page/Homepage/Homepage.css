@@ -1,0 +1,74 @@
+.container-header{
+    background: url('../../../public/assets/images/unsplash_6jxWmNmKM8s.png'), lightgray -386.151px 4.731px / 257.778% 136.405% no-repeat;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+    width: 100%;
+    height: 950px;
+    flex-shrink: 0;
+}
+
+
+.container-title{
+    display: flex;
+
+height: 296px;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+flex-shrink: 0;
+padding: 250px 722px 314px 158px;
+}
+
+.Slogan-container{
+    display: flex;
+
+align-items: center;
+gap: 10px;
+
+}
+.Slogan-item{
+    color: var(--pam_color3, #FFDB80);
+    text-shadow: 0px 0px 80px #023F76;
+    font-family: MontserratMedium;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    border-radius: 10px;
+background: rgba(109, 49, 208);
+padding: 5px;
+}
+
+.title{
+    color: var(--pam_color6, #FFF);
+text-shadow: 0px 0px 80px #023F76;
+font-family: MontserratMedium;
+color: #FFF;
+
+}
+
+.txet-title{
+    color: var(--pam_color6, #FFF);
+font-feature-settings: 'clig' off, 'liga' off;
+text-shadow: 0px 0px 80px #023F76, 0px 4px 40px rgba(0, 0, 0, 0.25);
+font-family: AvenirNext;
+letter-spacing: 0.5px;
+}
+
+.btn-title{
+    padding: 16px 22px;
+gap: 10px;
+border-radius: 88.166px;
+background: var(--pam_color_linear9, linear-gradient(96deg, #FFEB80 -22.07%, #FDBFA3 123.25%));
+box-shadow: 0px 3.52663px 35.26627px 0px rgba(255, 185, 175, 0.30);
+color: var(--pam_color1, #6D31D0);
+font-family: MontserratMedium;
+font-weight: 600;
+}
+
+.cities-img{
+    color: var(--pam_color6, #FFF);
+font-family: MontserratMedium;
+}
