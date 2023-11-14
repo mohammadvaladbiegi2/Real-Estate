@@ -1,0 +1,30 @@
+.bgChess{
+    background: url(../../../public/assets/images/chess.png);
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width:1000px) and (max-width:1600px) {
+    .bgImage {
+        background: url(../../../public/assets/images/about.png);    
+    }
+    .bgShadow {
+        width: 53%;
+    }
+}
+@media screen and (min-width:1600px) {
+    .bgImage {
+        background: url(../../../public/assets/images/about.png);    
+    }
+    .bgShadow {
+        width: 810px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .bgImage {
+        background: url(../../../public/assets/images/about2.png);
+    }
+    .bgShadow {
+        width: 100%;
+    }
+}
