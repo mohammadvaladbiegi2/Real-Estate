@@ -1,5 +1,5 @@
 import React from "react";
-import "./migration.css";
+import "./FamilyRelocations.css";
 import ContactUs from "../../componant/ContactUs/ContactUs";
 import FrequentlyAskedQuestionsCard from "../../componant/FrequentlyAskedQuestionsCard/FrequentlyAskedQuestionsCard";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
+import CardChooseCprus from "../../componant/CardChooseCprus/CardChooseCprus";
 
 export default function Migration() {
   window.scroll(0, 0);
@@ -16,10 +17,10 @@ export default function Migration() {
         <div className="flex pt-[120px]">
           <div className="absolute bgShadow h-[280px] min-[1000px]:h-[530px] bg-gradient-to-b min-[1000px]:bg-gradient-to-r from-color6 from-60% via-color7 via-80% to-100% z-10 flex justify-center items-center">
             <span className="AvenirNext text-4xl font-semibold text-black">
-              Moving to Cyprus
+              Family Relocation to Cyprus
             </span>
           </div>
-          <div className="bgImage min-[1000px]:right-0 h-[800px] min-[1000px]:h-[530px] w-full bg-no-repeat bg-center min-[1000px]:bg-right max-[1000px]:mt-[70px]"></div>
+          <div className="bgImagefamilyrelocations min-[1000px]:right-0 h-[800px] min-[1000px]:h-[530px] w-full bg-no-repeat bg-center min-[1000px]:bg-right max-[1000px]:mt-[70px]"></div>
         </div>
         <div className="flex flex-col gap-20 py-20 px-[130px] max-md:px-0 bg-color6">
           <div className="flex flex-row max-[1300px]:flex-col gap-5">
@@ -78,7 +79,7 @@ export default function Migration() {
                 </p>
               </div>
             </div>
-            <div className="w-[580px] h-[500px] max-md:h-[450px] max-md:bg-top bg-cover bg-no-repeat max-xl:w-[768px] max-md:w-full flex-none bgPhoto1Migration relative self-center">
+            <div className="w-[580px] h-[500px] max-md:h-[450px] max-md:bg-top bg-cover bg-no-repeat max-xl:w-[768px] max-md:w-full flex-none bgPhoto1Migrationfamilyrelocations relative self-center">
               <div className="max-[1000px]:hidden w-20 h-full bg-color6 opacity-50 absolute right-0"></div>
             </div>
           </div>
@@ -133,7 +134,7 @@ export default function Migration() {
                 </p>
               </div>
             </div>
-            <div className="w-[580px] h-[500px] max-md:h-[450px] max-md:bg-top bg-cover bg-no-repeat max-xl:w-[768px] max-md:w-full flex-none bgPhoto2Migration relative self-center"></div>
+            <div className="w-[580px] h-[500px] max-md:h-[450px] max-md:bg-top bg-cover bg-no-repeat max-xl:w-[768px] max-md:w-full flex-none bgPhoto2Migrationfamilyrelocations relative self-center"></div>
           </div>
           <div className="flex flex-row max-[1300px]:flex-col gap-5">
             <div className="flex flex-col text-black gap-10 max-md:px-[50px] max-sm:px-8">
@@ -198,39 +199,89 @@ export default function Migration() {
                 with any additional information you may require.
               </div>
             </div>
-            <div className="w-[580px] h-[500px] max-md:h-[450px] max-md:bg-top bg-cover bg-no-repeat max-xl:w-[768px] max-md:w-full flex-none bgPhoto3Migration relative self-center">
+            <div className="w-[580px] h-[500px] max-md:h-[450px] max-md:bg-top bg-cover bg-no-repeat max-xl:w-[768px] max-md:w-full flex-none bgPhoto3Migrationfamilyrelocations relative self-center">
               <div className="max-[1000px]:hidden w-20 h-full bg-color6 opacity-50 absolute left-0"></div>
             </div>
           </div>
         </div>
-        <div className="bgStyleSection3Migration flex flex-col items-center py-20 gap-[60px]">
-          <div className="uppercase AvenirNext text-4xl font-semibold text-black text-center">
-            How We Can Help
+        <section>
+          <div className="container-Sections w-full flex  px-[133px] py-[80px] flex-col items-center gap-[60px] ">
+            <div className="title w-[410px] md:w-[580px] h-5">
+              <h2 className="title-firs-text   h-[30px] flex-shrink-0 text-center text-3xl md:text-4xl not-italic font-semibold leading-10 uppercase">
+                How We Can Help{" "}
+              </h2>
+            </div>
+            <div className="container-cards mt-[60px] hidden xl:flex  justify-center items-start gap-[20px]">
+              <CardChooseCprus
+                cover="../../../public/assets/images/arrival.png"
+                title="Pre-arrival Planning"
+                desc="We provide a step-by-step plan that will handle every aspect of your family’s relocation process."
+                bg="linear-gradient(103deg, rgba(130,140,222,1) 38%, rgba(109,49,208,1) 100%)"
+              />
+              <CardChooseCprus
+                cover="../../../public/assets/images/houses.png"
+                title="Housing and Location Options"
+                desc="Together, we will discuss and review housing options according to your needs and expectations."
+                bg="linear-gradient(103deg, rgba(254,111,45,1) 22%, rgba(255,208,89,1) 100%)"
+              />
+              <CardChooseCprus
+                cover="../../../public/assets/images/immigration.png"
+                title="Immigration Assistance "
+                desc="Our consultation
+services will
+simplify
+immigration
+matters, helping
+you arrange the
+documents you
+need."
+                bg="linear-gradient(103deg, rgba(130,140,222,1) 0%, rgba(0,184,195,1) 100%)"
+              />
+              <CardChooseCprus
+                cover="../../../public/assets/images/support.png"
+                title="Personalized Support"
+                desc="Our services include providing you with any information you may need about living in Cyprus with your family."
+                bg=" linear-gradient(103deg, rgba(255,185,175,0.3) 0%, rgba(166,81,251,1) 100%)"
+              />
+            </div>
+
+            <div className="container-cards flex xl:hidden mt-[60px]  justify-center items-start gap-[20px]">
+              <CardChooseCprus
+                cover="../../../public/assets/images/arrival.png"
+                title="Pre-arrival Planning"
+                desc="We provide a step-by-step plan that will handle every aspect of your family’s relocation process."
+                bg="linear-gradient(103deg, rgba(130,140,222,1) 38%, rgba(109,49,208,1) 100%)"
+              />
+              <CardChooseCprus
+                cover="../../../public/assets/images/houses.png"
+                title="Housing and Location Options"
+                desc="Together, we will discuss and review housing options according to your needs and expectations."
+                bg="linear-gradient(103deg, rgba(254,111,45,1) 22%, rgba(255,208,89,1) 100%)"
+              />
+            </div>
+            <div className="container-cards flex xl:hidden mt-[60px]  justify-center items-start gap-[20px]">
+              <CardChooseCprus
+                cover="../../../public/assets/images/immigration.png"
+                title="Immigration Assistance "
+                desc="Our consultation
+services will
+simplify
+immigration
+matters, helping
+you arrange the
+documents you
+need."
+                bg="linear-gradient(103deg, rgba(130,140,222,1) 0%, rgba(0,184,195,1) 100%)"
+              />
+              <CardChooseCprus
+                cover="../../../public/assets/images/support.png"
+                title="Personalized Support"
+                desc="Our services include providing you with any information you may need about living in Cyprus with your family."
+                bg=" linear-gradient(103deg, rgba(255,185,175,0.3) 0%, rgba(166,81,251,1) 100%)"
+              />
+            </div>
           </div>
-          <div className="w-[780px] max-[1000px]:w-[580px] max-md:w-full max-md:px-10 flex flex-col items-center AvenirNextLight text-black gap-5">
-            <p className="leading-6 text-center tracking-[0.5px]">
-              Leaving your home country to settle in another is always
-              accompanied by complex immigration processes such as registration,
-              finding housing, signing documents, opening a bank account,
-              finding schooling for your children, and much more. This process
-              can make anyone feel stressed and uncertain about the next move.
-              For this reason, our all-encompassing services make sure to make
-              the relocation process as smooth as possible by handling
-              everything that has to do with relocating your family and your
-              business to Cyprus.
-            </p>
-            <ul className="leading-6 flex flex-col items-center text-color1 tracking-[0.5px]">
-              <li className="list-disc">Business Relocation</li>
-              <li className="list-disc">Family Relocation</li>
-              <li className="list-disc">Investment Plans</li>
-            </ul>
-          </div>
-          <div className="AvenirNextLight tracking-[0.5px] text-center leading-6 text-black w-[780px] max-[1000px]:w-[580px] max-md:w-full max-md:px-10 ">
-            We want you to feel confident in your decision to relocate to
-            Cyprus, as we take care of the challenging parts of moving. Moving
-            to Cyprus is in itself an investment in your future.
-          </div>
-        </div>
+        </section>
         <ContactUs />
         {/* Frequently Asked Questions slider */}
         <section>

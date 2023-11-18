@@ -1,36 +1,40 @@
-.main-cards{
-    display: flex;
-width: 144px;
-height: 180px;
-padding: 10px 10px 0px 10px;
-flex-direction: column;
-align-items: center;
-gap: 10px;
-border-radius: 12px;
-background-color: var(--pam-color6);
-border-radius: 12px;
-border: 2px solid var(--pam_color6, #FFF);
-background: var(--pam_color6, #FFF);
+.main-cards {
+  display: flex;
+  width: 144px;
+  height: 180px;
+  padding: 10px 10px 0px 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 12px;
+  background-color: var(--pam-color6);
+  border-radius: 12px;
+  border: 2px solid var(--pam_color6, #fff);
+  background: var(--pam_color6, #fff);
 
-/* shadow */
-box-shadow: 1.18553px 1.42263px 3.14815px 0px rgba(0, 0, 0, 0.02), 5.21632px 6.25958px 6.51852px 0px rgba(0, 0, 0, 0.03), 12.80369px 15.36443px 13px 0px rgba(0, 0, 0, 0.04), 24.65895px 29.59075px 25.48148px 0px rgba(0, 0, 0, 0.04), 41.49343px 49.79212px 46.85185px 0px rgba(0, 0, 0, 0.05), 64.01844px 76.82213px 80px 0px rgba(0, 0, 0, 0.07);
+  /* shadow */
+  box-shadow: 1.18553px 1.42263px 3.14815px 0px rgba(0, 0, 0, 0.02),
+    5.21632px 6.25958px 6.51852px 0px rgba(0, 0, 0, 0.03),
+    12.80369px 15.36443px 13px 0px rgba(0, 0, 0, 0.04),
+    24.65895px 29.59075px 25.48148px 0px rgba(0, 0, 0, 0.04),
+    41.49343px 49.79212px 46.85185px 0px rgba(0, 0, 0, 0.05),
+    64.01844px 76.82213px 80px 0px rgba(0, 0, 0, 0.07);
 }
 
-
-.main-text{
-    display: flex;
-width: 143px;
-height: 22px;
-padding: 0px 8px 8px 8px;
-flex-direction: column;
-align-items: flex-start;
-gap: 4px;
-flex-shrink: 0;
-color: var(--pam_color2, #828CDE);
-/* h4 */
-font-family: Montserrat;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: 32px; /* 160% */
+.main-text-box- {
+  display: flex;
+  width: 143px;
+  height: 22px;
+  padding: 0px 8px 8px 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  flex-shrink: 0;
+  color: var(--pam_color2, #828cde);
+  /* h4 */
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px; /* 160% */
 }

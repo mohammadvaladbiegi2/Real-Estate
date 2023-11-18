@@ -5,6 +5,7 @@ import OurServices from "../../componant/OurServicesCard/OurServices";
 import ChooseCyprus from "../../componant/ChooseCyprus/ChooseCyprus";
 import CardChooseCprus from "../../componant/CardChooseCprus/CardChooseCprus";
 import FrequentlyAskedQuestionsCard from "../../componant/FrequentlyAskedQuestionsCard/FrequentlyAskedQuestionsCard";
+import ContactUs from "../../componant/ContactUs/ContactUs";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -13,6 +14,8 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 
 export default function Homepage() {
+  window.scroll(0, 0);
+
   return (
     <>
       {/* headers */}
@@ -83,14 +86,15 @@ export default function Homepage() {
       </section>
       {/* Our Services */}
       <section>
-        <div className="flex flex-col items-center container-Services w-[100%] gap-[60px] py-[80px] px-[110px]">
+        <div className="flex flex-col items-center container-Services w-[100%] gap-[30px] pb-[80px] px-[110px]">
           <span className="text-center text-4xl not-italic font-semibold leading-10 uppercase title-Services">
             Our Services
           </span>
-          <hr className="bg-color4 w-[380px] h-1" />
+          <hr className="bg-color4 w-[380px] h-1 border-none" />
           <div className="flex justify-center items-start gap-[10px] lg:gap-[20px] flex-col md:flex-row">
             <div className="">
               <OurServices
+                href="/familyrelocations"
                 cover="../public/assets/images/services_cards_family_relocation_image.png"
                 title="Family Relocation"
                 desc="With strategic planning, we simplify the moving process so you and your family can feel safe and confident."
@@ -98,6 +102,7 @@ export default function Homepage() {
             </div>
             <div className="">
               <OurServices
+                href="/#"
                 cover="../public/assets/images/services_cards_business_relocation_image.png"
                 title="Business Relocation"
                 desc="We handle the responsibility of moving your business to Cyprus, so you can focus on your business goals."
@@ -105,6 +110,7 @@ export default function Homepage() {
             </div>
             <div className="hidden xl:flex">
               <OurServices
+                href="/#"
                 cover="../public/assets/images/services_cards_investment_schemes_image.png"
                 title="Investment plans"
                 desc="Discover the opportunity to further enhance your business ambitions, by choosing the optimal investment plan."
@@ -113,6 +119,7 @@ export default function Homepage() {
           </div>
           <div className=" xl:hidden">
             <OurServices
+              href="/#"
               cover="../public/assets/images/services_cards_investment_schemes_image.png"
               title="Investment plans"
               desc="Discover the opportunity to further enhance your business ambitions, by choosing the optimal investment plan."
@@ -175,6 +182,51 @@ export default function Homepage() {
           className="w-full  xl:hidden"
         />
       </section>
+      {/* Who we are */}
+      <section className="bgHomePageWhoWeAre flex justify-between gap-4 max-xl:gap-[44px] max-xl:flex-col px-[130px] max-md:px-20 max-[480px]:px-5 py-10">
+        <div className="flex flex-col w-[480px] max-xl:w-full mt-[23px]">
+          <div className="flex flex-col gap-1 relative">
+            <span className="uppercase AvenirNext text-4xl text-color6 leading-[40px]">
+              Who We Are
+            </span>
+            <div className="w-[447px] h-[3px] bg-color4 absolute -bottom-1 -left-[130px]"></div>
+          </div>
+          <div className="flex flex-col gap-5 AvenirNextLight text-base text-color6 font-normal mt-6">
+            <span className="leading-6 tracking-wide">
+              PAM Consulting is built upon a team of motivated professionals
+              aiming to provide families and businesses the services they need
+              to relocate to the island of Cyprus.
+            </span>
+
+            <span className="leading-6 tracking-wide">
+              We understand the challenges of deciding to relocate and this is
+              why we prioritize our clients’ needs by making sure that the whole
+              relocation process is as smooth and simple as possible.
+            </span>
+          </div>
+          <div className="self-start leading-8 font-bold cursor-pointer text-xl MontserratMedium mt-[56px] text-color1 bg-color3 py-[9px] px-6 rounded-[30px]">
+            More about us
+          </div>
+        </div>
+        <div className="flex max-sm:flex-col gap-[33px] max-sm:gap-[14px] w-[580px] max-sm:w-full h-[440px] max-sm:h-full max-sm:items-center bg-color7 rounded-3xl p-5">
+          <div className="flex-none">
+            <img src="../../public/assets/images/Rectangle338.png" alt="" />
+          </div>
+          <div className="flex flex-col max-sm:items-center gap-4 mt-6 max-sm:mt-0">
+            <div className="text-xl uppercase text-color1 MontserratMedium font-semibold">
+              FOUNDER
+            </div>
+            <div className="text-base text-color5 AvenirNextLight">
+              Anastasia Papaharidemou
+            </div>
+            <div className="self-start max-sm:self-center leading-5 font-semibold cursor-pointer text-lg MontserratMedium text-color1 bg-color3 w-[147px] h-[50px] flex justify-center items-center rounded-[30px]">
+              Contact
+            </div>
+          </div>
+        </div>
+      </section>
+      ;{/* Contact us */}
+      <ContactUs />
       {/* how make it hapend */}
       <section>
         <div className="container-Sections w-full flex  px-[133px] py-[80px] flex-col items-center gap-[60px] ">
