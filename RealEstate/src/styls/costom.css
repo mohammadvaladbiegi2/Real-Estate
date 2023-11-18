@@ -21,7 +21,6 @@
   src: url("../styls/fonts/AvenirNext/Metropolis-Light.otf");
 }
 
-
 :root {
   --pam-color3: #ffdb80;
   --pam-color6: #fff;
@@ -30,21 +29,19 @@
   --yellow-40: #ffeb80;
   --pam_color2: #828cde;
   --black: #434364;
-=======
-.AvenirNext{
-    font-family: AvenirNext;
+}
+.AvenirNext {
+  font-family: AvenirNext;
 }
 
-.AvenirNextLight{
-    font-family: AvenirNextLight;
+.AvenirNextLight {
+  font-family: AvenirNextLight;
 }
 
-.AvenirNextBold{
-    font-family: AvenirNextBold;
+.AvenirNextBold {
+  font-family: AvenirNextBold;
 }
 
-.MontserratMedium{
-    font-family: MontserratMedium;
+.MontserratMedium {
+  font-family: MontserratMedium;
 }
-
-

@@ -1,6 +1,6 @@
 import React from "react";
 import "./OurServices.css";
-
+import { Link } from "react-router-dom";
 export default function OurServices(props) {
   return (
     <div className="main-card w-[380px] md:w-[360px] lg:w-[380px]">
@@ -14,12 +14,12 @@ export default function OurServices(props) {
         </span>
         <div className="flex w-48 h-12 justify-center items-center">
           <button className="btn-find flex justify-center items-center gap-[20px] py-4 px-5">
-            <a
-              href="#"
+            <Link
+              to={props.href}
               className="btn-link flex w-40 h-4 flex-col justify-center text-center text-xl not-italic font-semibold leading-8"
             >
               Find Out More
-            </a>
+            </Link>
           </button>
         </div>
       </div>

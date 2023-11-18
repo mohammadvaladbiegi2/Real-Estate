@@ -1,0 +1,61 @@
+@media screen and (min-width: 1000px) and (max-width: 1600px) {
+  .bgImagefamilyrelocations {
+    background-image: url(../../../public/assets/images/unsplash_Fs3tnxNGutk.png);
+  }
+  .bgShadowfamilyrelocations {
+    width: 53%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .bgImagefamilyrelocations {
+    background-image: url(../../../public/assets/images/unsplash_Fs3tnxNGutk.png);
+  }
+  .bgShadowfamilyrelocations {
+    width: 810px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .bgImagefamilyrelocations {
+    background-image: url(../../../public/assets/images/offer_team_image_1.png);
+  }
+  .bgShadowfamilyrelocations {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bgImagefamilyrelocations {
+    background-image: url(../../../public/assets/images/offer_image_investment.png);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bgImagefamilyrelocations {
+    background-image: url(../../../public/assets/images/offer_image_investment-sm.png);
+  }
+}
+
+.bgPhoto1Migrationfamilyrelocations {
+  background-image: url(../../../public/assets/images/photo_2022-05-2614.331.png);
+}
+
+.bgPhoto2Migrationfamilyrelocations {
+  background-image: url(../../../public/assets/images/unsplash_deX-KChuboY.png);
+}
+
+.bgPhoto3Migrationfamilyrelocations {
+  background-image: url(../../../public/assets/images/unsplash_G8ucy10dpM8.png);
+}
+
+.bgStyleSection3 {
+  background: var(
+    --pam_color_linear3,
+    linear-gradient(180deg, #fefc9e -47.89%, #fdbfa3 126.42%)
+  );
+}
+
+.title-Frequently-Asked {
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: AvenirNext;
+}

@@ -1,53 +1,61 @@
-@media screen and (min-width:1000px) and (max-width:1600px) {
-    .bgImage {
-        background-image: url(../../../public/assets/images/airPlane.png);    
-    }
-    .bgShadow {
-        width: 53%;
-    }
+@media screen and (min-width: 1000px) and (max-width: 1600px) {
+  .bgImage {
+    background-image: url(../../../public/assets/images/airPlane.png);
+  }
+  .bgShadow {
+    width: 53%;
+  }
 }
-@media screen and (min-width:1600px) {
-    .bgImage {
-        background-image: url(../../../public/assets/images/airPlane.png);    
-    }
-    .bgShadow {
-        width: 810px;
-    }
-}
-
-@media screen and (max-width:1000px) {
-    .bgImage {
-        background-image: url(../../../public/assets/images/airPlane2.png);
-    }
-    .bgShadow {
-        width: 100%;
-    }
+@media screen and (min-width: 1600px) {
+  .bgImage {
+    background-image: url(../../../public/assets/images/airPlane.png);
+  }
+  .bgShadow {
+    width: 810px;
+  }
 }
 
-@media screen and (max-width:768px) {
-    .bgImage {
-        background-image: url(../../../public/assets/images/airPlane3.png);
-    }
+@media screen and (max-width: 1000px) {
+  .bgImage {
+    background-image: url(../../../public/assets/images/airPlane2.png);
+  }
+  .bgShadow {
+    width: 100%;
+  }
 }
 
-@media screen and (max-width:480px) {
-    .bgImage {
-        background-image: url(../../../public/assets/images/airPlane4.png);
-    }
+@media screen and (max-width: 768px) {
+  .bgImage {
+    background-image: url(../../../public/assets/images/airPlane3.png);
+  }
 }
 
-.bgPhoto1Migration{
-    background-image: url(../../../public/assets/images/photo1migration.png);
+@media screen and (max-width: 480px) {
+  .bgImage {
+    background-image: url(../../../public/assets/images/airPlane4.png);
+  }
 }
 
-.bgPhoto2Migration{
-    background-image: url(../../../public/assets/images/photo2migration.png);
+.bgPhoto1Migration {
+  background-image: url(../../../public/assets/images/photo1migration.png);
 }
 
-.bgPhoto3Migration{
-    background-image: url(../../../public/assets/images/photo3migration.png);    
+.bgPhoto2Migration {
+  background-image: url(../../../public/assets/images/photo2migration.png);
 }
 
-.bgStyleSection3Migration{
-    background: var(--pam_color_linear3, linear-gradient(180deg, #FEFC9E -47.89%, #FDBFA3 126.42%));
+.bgPhoto3Migration {
+  background-image: url(../../../public/assets/images/photo3migration.png);
+}
+
+.bgStyleSection3Migration {
+  background: var(
+    --pam_color_linear3,
+    linear-gradient(180deg, #fefc9e -47.89%, #fdbfa3 126.42%)
+  );
+}
+
+.title-Frequently-Asked {
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: AvenirNext;
 }
