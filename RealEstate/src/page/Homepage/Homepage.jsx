@@ -1,8 +1,4 @@
-
 import React from "react";
-import image from "../../../public/assets/images/HomePageWhoWeAre.png"
-
-import React, { useState, useRef } from "react";
 
 import "./Homepage.css";
 import MostpopularcitiesCard from "../../componant/MostpopularcitiesCard/MostpopularcitiesCard";
@@ -17,9 +13,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
+import { Link } from "react-router-dom";
 
 export default function Homepage() {
-
   window.scroll(0, 0);
 
   return (
@@ -53,9 +49,12 @@ export default function Homepage() {
             </span>
           </div>
           <div className="lg:ms-[138px] ms-[15px] flex w-48 h-12 mt-[80px] lg:mt-[20px] justify-center items-center flex-shrink-0">
-            <button className="flex justify-center items-center btn-title">
+            <Link
+              to="/migration"
+              className="flex justify-center items-center btn-title"
+            >
               Find Out More
-            </button>
+            </Link>
           </div>
           <div className="flex h-56 flex-col items-start flex-shrink-0 lg:w-[700px] w-[378px] gap-[16px]">
             <span className="cities-img lg:ms-[158px] ms-[30px] mt-5 lg:mt-14 flex w-50 h-3 flex-col justify-center flex-shrink-0 text-xl not-italic font-semibold leading-8">
@@ -108,7 +107,7 @@ export default function Homepage() {
             </div>
             <div className="">
               <OurServices
-                href="/#"
+                href="/businessRelocation"
                 cover="../public/assets/images/services_cards_business_relocation_image.png"
                 title="Business Relocation"
                 desc="We handle the responsibility of moving your business to Cyprus, so you can focus on your business goals."
@@ -116,7 +115,7 @@ export default function Homepage() {
             </div>
             <div className="hidden xl:flex">
               <OurServices
-                href="/#"
+                href="/investmentOpportunities"
                 cover="../public/assets/images/services_cards_investment_schemes_image.png"
                 title="Investment plans"
                 desc="Discover the opportunity to further enhance your business ambitions, by choosing the optimal investment plan."
@@ -125,7 +124,7 @@ export default function Homepage() {
           </div>
           <div className=" xl:hidden">
             <OurServices
-              href="/#"
+              href="/investmentOpportunities"
               cover="../public/assets/images/services_cards_investment_schemes_image.png"
               title="Investment plans"
               desc="Discover the opportunity to further enhance your business ambitions, by choosing the optimal investment plan."
@@ -161,12 +160,12 @@ export default function Homepage() {
             </span>
             <div className="flexh-12 justify-center items-center w-[480px]">
               <button className="btn-find flex justify-center items-center mx-32 gap-[20px] py-4 px-5">
-                <a
-                  href="#"
+                <Link
+                  to="/migration"
                   className="btn-link flex w-40 h-4 flex-col justify-center text-center text-xl not-italic font-semibold leading-8"
                 >
                   Find Out More
-                </a>
+                </Link>
               </button>
             </div>
           </div>
@@ -210,9 +209,12 @@ export default function Homepage() {
               relocation process is as smooth and simple as possible.
             </span>
           </div>
-          <div className="self-start leading-8 font-bold cursor-pointer text-xl MontserratMedium mt-[56px] text-color1 bg-color3 py-[9px] px-6 rounded-[30px]">
+          <Link
+            to="/about"
+            className="self-start leading-8 font-bold cursor-pointer text-xl MontserratMedium mt-[56px] text-color1 bg-color3 py-[9px] px-6 rounded-[30px]"
+          >
             More about us
-          </div>
+          </Link>
         </div>
         <div className="flex max-sm:flex-col gap-[33px] max-sm:gap-[14px] w-[580px] max-sm:w-full h-[440px] max-sm:h-full max-sm:items-center bg-color7 rounded-3xl p-5">
           <div className="flex-none">
@@ -225,9 +227,12 @@ export default function Homepage() {
             <div className="text-base text-color5 AvenirNextLight">
               Anastasia Papaharidemou
             </div>
-            <div className="self-start max-sm:self-center leading-5 font-semibold cursor-pointer text-lg MontserratMedium text-color1 bg-color3 w-[147px] h-[50px] flex justify-center items-center rounded-[30px]">
+            <Link
+              to="/contactus"
+              className="self-start max-sm:self-center leading-5 font-semibold cursor-pointer text-lg MontserratMedium text-color1 bg-color3 w-[147px] h-[50px] flex justify-center items-center rounded-[30px]"
+            >
               Contact
-            </div>
+            </Link>
           </div>
         </div>
       </section>
@@ -398,5 +403,4 @@ export default function Homepage() {
       </section>
     </>
   );
-
 }

@@ -1,0 +1,56 @@
+@media screen and (min-width: 1000px) and (max-width: 1600px) {
+  .bgImage2InvestmentOpportunities {
+    background-image: url(../../../public/assets/images/unsplash_Fs3tnxNGutk2.png);
+  }
+  .bgShadow2InvestmentOpportunities {
+    width: 53%;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .bgImage2InvestmentOpportunities {
+    background-image: url(../../../public/assets/images/unsplash_Fs3tnxNGutk2.png);
+  }
+  .bgShadow2InvestmentOpportunities {
+    width: 810px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .bgImage2InvestmentOpportunities {
+    background-image: url(../../../public/assets/images/offer_image_investment6.png);
+  }
+  .bgShadow2InvestmentOpportunities {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bgImage2InvestmentOpportunities {
+    background-image: url(../../../public/assets/images/offer_image_investment5.png);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .bgImage2InvestmentOpportunities {
+    background-image: url(../../../public/assets/images/offer_image_investment4.png);
+  }
+}
+
+.bgPhoto1BusinessInvestmentOpportunities {
+  background-image: url(../../../public/assets/images/photoinvestments.png);
+}
+
+.bgPhoto2BusinessInvestmentOpportunities {
+  background-image: url(../../../public/assets/images/unsplash_G8ucy10dpM9.png);
+}
+
+.bgPhoto3BusinessInvestmentOpportunities {
+  background-image: url(../../../public/assets/images/unsplash_deX-KChuboY2.png);
+}
+
+.bgStyleSection3MigrationInvestmentOpportunities {
+  background: var(
+    --pam_color_linear3,
+    linear-gradient(180deg, #fefc9e -47.89%, #fdbfa3 126.42%)
+  );
+}
