@@ -4,7 +4,7 @@ import emailImage from "../../../public/assets/images/contact-email-icon.png";
 import "./ContactUs.css";
 export default function ContactUs() {
   return (
-    <section className="bgStyle flex flex-col items-center gap-[40px] md:gap-[60px] h-full md:h-[1120px] w-full pb-5 pt-20 px-8 md:px-32">
+    <section className="bgStyle flex flex-col items-center gap-[40px] md:gap-[60px] h-full w-full pb-20 pt-[120px] px-8 md:px-32">
       <div className="flex flex-col items-center gap-5 mt-16">
         <span className="uppercase text-4xl AvenirNext text-black font-semibold">
           Contact Us

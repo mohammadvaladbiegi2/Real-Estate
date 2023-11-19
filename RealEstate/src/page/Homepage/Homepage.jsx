@@ -21,7 +21,7 @@ export default function Homepage() {
   return (
     <>
       {/* headers */}
-      <section>
+      <section className="pt-[120px]">
         <div className="container-header">
           <div className="container-title w-[300px] lg:w-[560px] lg:ps-[158px] ps-[10px] sm:ps-[30px] pe-[372px] md:pe-[516px] lg:pe-[722px]">
             <div className="Slogan-container w-[346px] lg:w-[564px]">
@@ -134,7 +134,7 @@ export default function Homepage() {
       </section>
       {/* Moving to Paradise */}
       <section>
-        <div className="flex justify-center items-center flex-col xl:flex-row xl:py-[80px] gap-[70px] container-Moving-To-Paradise">
+        {/* <div className="flex justify-center items-center flex-col xl:flex-row xl:py-[80px] gap-[70px] container-Moving-To-Paradise">
           <div className="flex-shrink-0 flex justify-end  w-full min-[1500px]:w-[430px] min-[1460px]:w-[410px] min-[1400px]:w-[380px] min-[1380px]:w-[360px] min-[1360px]:w-[340px] xl:w-[321px] h-[499.994px] img-left">
             <div className="w-20 flex-shrink-0 h-[499.998px] hidden xl:flex shadow-left"></div>
           </div>
@@ -171,6 +171,30 @@ export default function Homepage() {
           </div>
           <div className="flex-shrink-0   w-full min-[1500px]:w-[430px] min-[1460px]:w-[410px] min-[1400px]:w-[380px] min-[1380px]:w-[360px] min-[1360px]:w-[340px] xl:w-[321px] h-[499.994px] img-right">
             <div className="w-20 flex-shrink-0 h-[499.998px] hidden xl:flex shadow-left"></div>
+          </div>
+        </div> */}
+        <div className="flex items-start gap-[70px] max-[1000px]:flex-col max-[1000px]:items-center min-[1000px]:py-20">
+          <div className="w-full relative flex justify-center overflow-hidden">
+            <img className="w-full h-full max-[1000px]:hidden" src="../../../public/assets/images/image-villa2.png" />
+            <div className="absolute top-0 right-0 w-20 h-full bg-color6 bg-opacity-50 max-xl:hidden"></div>
+            <img className="w-full max-md:min-w-[768px] h-full max-md:h-[300px] flex-none min-[1000px]:hidden" src="../../../public/assets/images/image-villas2Big.png" />
+          </div>
+          <div className="flex-none flex flex-col items-center gap-6 max-md:py-10 md:w-[480px] max-md:w-[400px]">
+            <div className="uppercase AvenirNext text-4xl font-semibold text-black leading-10 whitespace-nowrap">Moving to Paradise</div>
+            <div className="flex flex-col gap-6 text-center AvenirNextLight text-black">
+              <p className="leading-6">
+                Have you ever dreamed about the perfect place to live? Your definition of perfect may be different someone else’s. Are you longing to live by the beach and listen to the soothing waves or are you a kind of person who enjoys the bustling sounds of the city? Whatever lifestyle you desire, Cyprus has it all! Whether you’re travelling with your family, your partner, or as a solo business entrepreneur, this exotic island can offer you a little bit of everything.
+              </p>
+              <p className="leading-6">
+                If you’ve made the decision to relocate to Cyprus, then you are expecting to find a safe place to settle. With extremely low crime rate, stunning sandy beaches, and awe-inspiring mountain views, Cyprus is the place to be!
+              </p>
+            </div>
+            <div className="bgShadowFindOut MontserratMedium font-semibold text-color1 text-xl w-[200px] h-12 flex justify-center items-center cursor-pointer">Find Out More</div>
+          </div>
+          <div className="w-full relative flex justify-center overflow-hidden">
+            <img className="w-full h-full max-[1000px]:hidden" src="../../../public/assets/images/image-villas.png" />
+            <div className="absolute top-0 left-0 w-20 h-full bg-color6 bg-opacity-50 max-xl:hidden"></div>
+            <img className="w-full max-md:min-w-[768px] h-full max-md:h-[300px] flex-none min-[1000px]:hidden" src="../../../public/assets/images/image-villaBig.png" />
           </div>
         </div>
       </section>
@@ -229,14 +253,14 @@ export default function Homepage() {
             </div>
             <Link
               to="/contactus"
-              className="self-start max-sm:self-center leading-5 font-semibold cursor-pointer text-lg MontserratMedium text-color1 bg-color3 w-[147px] h-[50px] flex justify-center items-center rounded-[30px]"
+              className="self-start max-sm:self-center leading-5 font-semibold cursor-pointer text-lg MontserratMedium text-color1 bg-color3 w-[147px] h-[50px] flex justify-center items-center rounded-[30px] drop-shadow-2xl shadow-color2"
             >
               Contact
             </Link>
           </div>
         </div>
       </section>
-      ;{/* Contact us */}
+      {/* Contact us */}
       <ContactUs />
       {/* how make it hapend */}
       <section>
@@ -357,7 +381,7 @@ export default function Homepage() {
           <h2 className="title-Frequently-Asked h-8 flex-col justify-center flex-shrink-0 w-[380px] md:w-[610px] text-color6  text-center text-4xl not-italic font-semibold leading-10 uppercase">
             Frequently Asked Questions
           </h2>
-          <div className="container-slider-card flex items-start gap-5 w-[380px] md:w-[780px]  xl:w-[1180px]">
+          <div className="container-slider-card flex items-start gap-5 w-[380px] md:w-[780px] xl:w-[1180px]">
             <Swiper
               pagination={{
                 dynamicBullets: true,

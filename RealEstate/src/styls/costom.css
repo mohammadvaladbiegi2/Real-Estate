@@ -4,18 +4,27 @@
   font-family: MontserratMedium;
   src: url("../styls/fonts/static/Montserrat-Medium.ttf");
 }
+
+@font-face {
+  font-family: MontserratRegular;
+  src: url("../styls/fonts/static/Montserrat-Regular.ttf");
+}
+
 @font-face {
   font-family: AvenirNext;
   src: url("../styls/fonts/AvenirNext/Metropolis-Medium.otf");
 }
+
 @font-face {
   font-family: AvenirNextBold;
   src: url("../styls/fonts/AvenirNext/Metropolis-Bold.otf");
 }
+
 @font-face {
   font-family: AvenirNextBlack;
   src: url("../styls/fonts/AvenirNext/Metropolis-Black.otf");
 }
+
 @font-face {
   font-family: AvenirNextLight;
   src: url("../styls/fonts/AvenirNext/Metropolis-Light.otf");
@@ -30,6 +39,7 @@
   --pam_color2: #828cde;
   --black: #434364;
 }
+
 .AvenirNext {
   font-family: AvenirNext;
 }
@@ -44,4 +54,8 @@
 
 .MontserratMedium {
   font-family: MontserratMedium;
+}
+
+.MontserratRegular {
+  font-family: MontserratRegular;
 }
