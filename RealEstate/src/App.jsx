@@ -3,6 +3,8 @@ import "./App.css";
 import routs from "./routs";
 import Navbar from "./componant/Navbar/Navbar";
 
+
+
 function App() {
   let rout = useRoutes(routs);
 
@@ -12,6 +14,7 @@ function App() {
       {rout}
     </>
   );
+
 }
 
 export default App;

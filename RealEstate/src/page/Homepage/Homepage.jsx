@@ -1,4 +1,9 @@
+
+import React from "react";
+import image from "../../../public/assets/images/HomePageWhoWeAre.png"
+
 import React, { useState, useRef } from "react";
+
 import "./Homepage.css";
 import MostpopularcitiesCard from "../../componant/MostpopularcitiesCard/MostpopularcitiesCard";
 import OurServices from "../../componant/OurServicesCard/OurServices";
@@ -14,6 +19,7 @@ import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 
 export default function Homepage() {
+
   window.scroll(0, 0);
 
   return (
@@ -392,4 +398,5 @@ export default function Homepage() {
       </section>
     </>
   );
+
 }

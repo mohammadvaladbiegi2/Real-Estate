@@ -1,0 +1,53 @@
+@media screen and (min-width:1000px) and (max-width:1600px) {
+    .bgImage2 {
+        background-image: url(../../../public/assets/images/businessRelocationTop1.png);    
+    }
+    .bgShadow2 {
+        width: 53%;
+    }
+}
+@media screen and (min-width:1600px) {
+    .bgImage2 {
+        background-image: url(../../../public/assets/images/businessRelocationTop1.png);    
+    }
+    .bgShadow2 {
+        width: 810px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .bgImage2 {
+        background-image: url(../../../public/assets/images/businessRelocationTop2.png);
+    }
+    .bgShadow2 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .bgImage2 {
+        background-image: url(../../../public/assets/images/businessRelocationTop3.png);
+    }
+}
+
+@media screen and (max-width:480px) {
+    .bgImage2 {
+        background-image: url(../../../public/assets/images/businessRelocationTop4.png);
+    }
+}
+
+.bgPhoto1Business{
+    background-image: url(../../../public/assets/images/businessRelocation1.png);
+}
+
+.bgPhoto2Business{
+    background-image: url(../../../public/assets/images/businessRelocation2.png);
+}
+
+.bgPhoto3Business{
+    background-image: url(../../../public/assets/images/businessRelocation3.png);    
+}
+
+.bgStyleSection3Migration{
+    background: var(--pam_color_linear3, linear-gradient(180deg, #FEFC9E -47.89%, #FDBFA3 126.42%));
+}
