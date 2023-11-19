@@ -1,0 +1,20 @@
+.container-icon {
+  border-radius: 800px;
+}
+
+.icon-card {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-desc {
+  color: var(--pam_color1, #6d31d0);
+  font-family: MontserratMedium;
+}
+
+.desc-desc {
+  color: var(--pam_color5, #434364);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: AvenirNextLight;
+  letter-spacing: 0.5px;
+}

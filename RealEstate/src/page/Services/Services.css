@@ -1,0 +1,12 @@
+.container-Services {
+  background: var(
+    --pam_color_linear2,
+    linear-gradient(180deg, #828cde -21.43%, #6d31d0 201.93%)
+  );
+}
+.title-Services {
+  color: var(--pam_color6, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: AvenirNext;
+  margin-top: 75px;
+}

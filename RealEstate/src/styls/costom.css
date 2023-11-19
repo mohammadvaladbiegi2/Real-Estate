@@ -1,50 +1,47 @@
 @import url(./reset.css);
 
 @font-face {
-    font-family: MontserratMedium;
-    src: url('../styls/fonts/static/Montserrat-Medium.ttf');
+  font-family: MontserratMedium;
+  src: url("../styls/fonts/static/Montserrat-Medium.ttf");
 }
 @font-face {
-    font-family:  AvenirNext;
-    src: url('../styls/fonts/AvenirNext/Metropolis-Medium.otf');
+  font-family: AvenirNext;
+  src: url("../styls/fonts/AvenirNext/Metropolis-Medium.otf");
 }
 @font-face {
-    font-family:  AvenirNextBold;
-    src: url('../styls/fonts/AvenirNext/Metropolis-Bold.otf');
+  font-family: AvenirNextBold;
+  src: url("../styls/fonts/AvenirNext/Metropolis-Bold.otf");
 }
 @font-face {
-    font-family:  AvenirNextBlack;
-    src: url('../styls/fonts/AvenirNext/Metropolis-Black.otf');
+  font-family: AvenirNextBlack;
+  src: url("../styls/fonts/AvenirNext/Metropolis-Black.otf");
 }
 @font-face {
-    font-family:  AvenirNextLight;
-    src: url('../styls/fonts/AvenirNext/Metropolis-Light.otf');
-}
-
-.AvenirNext{
-    font-family: AvenirNext;
-}
-
-.AvenirNextLight{
-    font-family: AvenirNextLight;
-}
-
-.AvenirNextBold{
-    font-family: AvenirNextBold;
-}
-
-.MontserratMedium{
-    font-family: MontserratMedium;
+  font-family: AvenirNextLight;
+  src: url("../styls/fonts/AvenirNext/Metropolis-Light.otf");
 }
 
 :root {
-    --pam-color3: #FFDB80;
-    --pam-color6: #fff;
-    --pam-color7: #ffffffce;
-    --pam_color1: #6D31D0;
-    --pam_color4: #FDBFA3;
-    --yellow-40:#FFEB80;
-    --pam_color2: #828CDE;
-    --black : #434364;
+  --pam-color3: #ffdb80;
+  --pam-color6: #fff;
+  --pam_color1: #6d31d0;
+  --pam_color4: #fdbfa3;
+  --yellow-40: #ffeb80;
+  --pam_color2: #828cde;
+  --black: #434364;
+}
+.AvenirNext {
+  font-family: AvenirNext;
 }
 
+.AvenirNextLight {
+  font-family: AvenirNextLight;
+}
+
+.AvenirNextBold {
+  font-family: AvenirNextBold;
+}
+
+.MontserratMedium {
+  font-family: MontserratMedium;
+}

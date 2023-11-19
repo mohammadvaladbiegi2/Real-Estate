@@ -1,3 +1,228 @@
-.bgHomePageWhoWeAre{
-    background: var(--pam_color_linear2, linear-gradient(180deg, #828CDE -21.43%, #6D31D0 201.93%));
+
+.container-header {
+  background: url("../../../public/assets/images/unsplash_6jxWmNmKM8s.png"),
+    lightgray -386.151px 4.731px / 257.778% 136.405% no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 950px;
+  flex-shrink: 0;
 }
+
+.container-title {
+  display: flex;
+
+  height: 296px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex-shrink: 0;
+  padding: 250px 722px 314px 158px;
+}
+
+.Slogan-container {
+  display: flex;
+
+  align-items: center;
+  gap: 10px;
+}
+.Slogan-item {
+  color: var(--pam_color3, #ffdb80);
+  text-shadow: 0px 0px 80px #023f76;
+  font-family: MontserratMedium;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  border-radius: 10px;
+  background: rgba(109, 49, 208);
+  padding: 5px;
+}
+
+.title {
+  color: var(--pam_color6, #fff);
+  text-shadow: 0px 0px 80px #023f76;
+  font-family: MontserratMedium;
+  color: #fff;
+}
+
+.txet-title {
+  color: var(--pam_color6, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  text-shadow: 0px 0px 80px #023f76, 0px 4px 40px rgba(0, 0, 0, 0.25);
+  font-family: AvenirNext;
+  letter-spacing: 0.5px;
+}
+
+.btn-title {
+  padding: 16px 22px;
+  gap: 10px;
+  border-radius: 88.166px;
+  background: var(
+    --pam_color_linear9,
+    linear-gradient(96deg, #ffeb80 -22.07%, #fdbfa3 123.25%)
+  );
+  box-shadow: 0px 3.52663px 35.26627px 0px rgba(255, 185, 175, 0.3);
+  color: var(--pam_color1, #6d31d0);
+  font-family: MontserratMedium;
+  font-weight: 600;
+}
+
+.cities-img {
+  color: var(--pam_color6, #fff);
+  font-family: MontserratMedium;
+}
+
+.container-Services {
+  background: var(
+    --pam_color_linear2,
+    linear-gradient(180deg, #828cde -21.43%, #6d31d0 201.93%)
+  );
+}
+
+.img-left {
+  width: 410px;
+  height: 500px;
+  flex-shrink: 0;
+  background: url("../../../public/assets/images/47ea4caa5dd0f3d04b7794e0c5bfa9f0.jpg"),
+    lightgray 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img-right {
+  width: 410px;
+  height: 500px;
+  flex-shrink: 0;
+  background: url("../../../public/assets/images/09a63fc1e324b6e6a3f8fcb71ed84179.jpg"),
+    lightgray 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-Services {
+  color: var(--pam_color6, #fff);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: AvenirNext;
+}
+
+.container-Moving-To-Paradise {
+  background: var(--pam_color6, #fff);
+}
+
+.shadow-left {
+  opacity: 0.5;
+  background: var(--pam_color6, #fff);
+}
+
+.title-Move-to-paradise {
+  color: var(--pam_color5, #434364);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: AvenirNext;
+  font-size: 38px;
+}
+
+.btn-find {
+  border-radius: 88.166px;
+  background: var(
+    --pam_color_linear9,
+    linear-gradient(96deg, #ffeb80 -22.07%, #fdbfa3 123.25%)
+  );
+  box-shadow: 0px 3.52663px 35.26627px 0px rgba(255, 185, 175, 0.3);
+}
+
+.btn-link {
+  color: var(--pam_color1, #6d31d0);
+  font-family: MontserratMedium;
+}
+
+.text-Moving-To-paradies {
+  color: var(--pam_color5, #434364);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: AvenirNextLight;
+  letter-spacing: 0.5px;
+}
+
+.bgHomePageWhoWeAre {
+  background: var(
+    --pam_color_linear2,
+    linear-gradient(180deg, #828cde -21.43%, #6d31d0 201.93%)
+  );
+}
+
+.container-Sections {
+  background: var(
+    --pam_color_linear3,
+    linear-gradient(180deg, #fefc9e -47.89%, #fdbfa3 126.42%)
+  );
+}
+
+.title-firs-text {
+  color: var(--pam_color5, #434364);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: AvenirNext;
+}
+.title-second-text {
+  color: var(--pam_color5, #434364);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: AvenirNextLight;
+  letter-spacing: 0.5px;
+}
+
+.title-Partners {
+  color: var(--pam_color5, #434364);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: AvenirNext;
+}
+
+.Partners-img1 {
+  border-radius: 24px;
+  background: url("../../../public//assets/images/partner1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  backdrop-filter: blur(20px);
+}
+.Partners-img2 {
+  border-radius: 24px;
+  background: url("../../../public//assets/images/partner2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  backdrop-filter: blur(20px);
+}
+.Partners-img3 {
+  border-radius: 24px;
+  background: url("../../../public//assets/images/partner3.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  backdrop-filter: blur(20px);
+}
+.Partners-img4 {
+  border-radius: 24px;
+  background: url("../../../public//assets/images/partner4.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  backdrop-filter: blur(20px);
+}
+.Partners-img5 {
+  border-radius: 24px;
+  background: url("../../../public//assets/images/partner5.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  backdrop-filter: blur(20px);
+}
+.Partners-img6 {
+  border-radius: 24px;
+  background: url("../../../public//assets/images/partner6.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  backdrop-filter: blur(20px);
+}
+
+.title-Frequently-Asked {
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: AvenirNext;
+}
+

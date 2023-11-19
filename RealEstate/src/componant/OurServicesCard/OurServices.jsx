@@ -1,18 +1,28 @@
 import React from "react";
 import "./OurServices.css";
-
-export default function OurServices() {
+import { Link } from "react-router-dom";
+export default function OurServices(props) {
   return (
-    <div className="main-card bg-color2">
-      <img src="../public/assets/images/services_cards_family_relocation_image.png" />
-      <div className="container-title">
-        <span className="title-card">Family Relocation</span>
+    <div className="main-card w-[380px] md:w-[360px] lg:w-[380px]">
+      <img src={props.cover} className="img-card" />
+      <div className="flex flex-col items-center gap-[20px]">
+        <span className="w-[380px] md:w-[360px] lg:w-[380px] h-16 text-center text-3xl not-italic font-semibold leading-8 uppercase title-card">
+          {props.title}
+        </span>
+        <span className="desc-card flex h-16 flex-col justify-center w-[320px] text-center text-base not-italic font-normal leading-6">
+          {props.desc}
+        </span>
+        <div className="flex w-48 h-12 justify-center items-center">
+          <button className="btn-find flex justify-center items-center gap-[20px] py-4 px-5">
+            <Link
+              to={props.href}
+              className="btn-link flex w-40 h-4 flex-col justify-center text-center text-xl not-italic font-semibold leading-8"
+            >
+              Find Out More
+            </Link>
+          </button>
+        </div>
       </div>
-      <span className="desc">
-        With strategic planning, we simplify the moving process so you and your
-        family can feel safe and confident.
-      </span>
-      <button className="btn-find">Find Out More</button>
     </div>
   );
 }

@@ -1,76 +1,44 @@
 .main-card{
     display: flex;
-height: 545px;
-flex-direction: column;
-align-items: flex-start;
-gap: 20px;
-width: 380px;
-border-radius: 20px;
+    height: 515px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    border-radius: 20px;
+background: var(--pam_color6, #FFF);
+
+/* Medium Drop */
+box-shadow: 0px 14px 23px 0px rgba(28, 37, 44, 0.08);
 
 }
 
 
-.container-title{
-    display: flex;
-    justify-content: center;
-    
-    width: 380px;
-height: 63px;
+.img-card{
+    border-radius: 19px 19px 19px 0px;
+background: linear-gradient(90deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.00) 85.45%), lightgray -348.157px -219.85px / 280.987% 276.978% no-repeat;
 }
+
 
 .title-card{
-    width: 276px;
-
-color: var(--pam_color5, #434364);
-text-align: center;
+    color: var(--pam_color5, #434364);
 font-feature-settings: 'clig' off, 'liga' off;
-
 font-family: AvenirNext;
-font-size: 28px;
-font-style: normal;
-font-weight: 600;
-line-height: 32px; 
-text-transform: uppercase;
 }
 
-
-.desc{
-    display: flex;
-width: 320px;
-height: 64px;
-flex-direction: column;
-justify-content: center;
-color: var(--pam_color5, #434364);
-text-align: center;
+.desc-card{
+    color: var(--pam_color5, #434364);
 font-feature-settings: 'clig' off, 'liga' off;
-/* h5 */
-font-family: Avenir Next;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 24px; /* 150% */
+font-family: AvenirNext;
 letter-spacing: 0.5px;
-margin: auto;
-
 }
-
 
 .btn-find{
-    color: var(--pam_color1, #6D31D0);
-    text-align: center;
-/* h4 */
-font-family: MontserratMedium;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: 32px; /* 160% */
-    display: flex;
-padding: 16px 22px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border-radius: 88.166px;
+    border-radius: 88.166px;
 background: var(--pam_color_linear9, linear-gradient(96deg, #FFEB80 -22.07%, #FDBFA3 123.25%));
 box-shadow: 0px 3.52663px 35.26627px 0px rgba(255, 185, 175, 0.30);
-margin: auto;
+}
+
+.btn-link{
+    color: var(--pam_color1, #6D31D0);
+font-family: MontserratMedium;
 }

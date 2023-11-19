@@ -2,7 +2,8 @@ import React from "react";
 import "./BusinessRelocation.css";
 
 export default function BusinessRelocation() {
-   return <section>
+window.scroll(0, 0);
+   return (<section>
       <div className="flex pt-[120px]">
          <div className="absolute bgShadow2 h-[280px] min-[1000px]:h-[530px] bg-gradient-to-b min-[1000px]:bg-gradient-to-r from-color6 from-60% via-color7 via-80% to-100% z-10 flex justify-center items-center">
             <span className="AvenirNext text-4xl font-semibold text-black">Business Relocation</span>
@@ -109,5 +110,9 @@ export default function BusinessRelocation() {
             We want you to feel confident in your decision to relocate to Cyprus, as we take care of the challenging parts of moving. Moving to Cyprus is in itself an investment in your future.
          </div>
       </div>
-   </section>;
+   </section>);
+
+  
+
+
 }
