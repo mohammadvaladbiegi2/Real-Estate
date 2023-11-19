@@ -33,7 +33,9 @@ export default function Navbar() {
                 <path d="M1 1L5 5L9 1" stroke="white" />
               </svg>
             </Link>
-            <div className="cursor-pointer">Invest in cyprus</div>
+            <Link to="/investmentOpportunities" className="cursor-pointer">
+              Invest in cyprus
+            </Link>
             <Link to="/migration" className="cursor-pointer">
               migration
             </Link>
@@ -41,12 +43,13 @@ export default function Navbar() {
               Contuct us
             </Link>
           </div>
-          <div
+          <Link
+            to="/contactus"
             className="max-md:hidden flex items-center justify-center text-color1 bg-color3 w-[180px] h-12 text-xl rounded-[30px] font-semibold cursor-pointer"
             Montserrat
           >
             Get in touch
-          </div>
+          </Link>
           <div className="min-[1300px]:hidden cursor-pointer">
             <svg
               width="40"

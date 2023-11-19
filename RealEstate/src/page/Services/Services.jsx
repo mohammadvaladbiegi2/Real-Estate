@@ -22,7 +22,7 @@ export default function Services() {
           </div>
           <div className="">
             <OurServices
-              href="/#"
+              href="/businessRelocation"
               cover="../public/assets/images/services_cards_business_relocation_image.png"
               title="Business Relocation"
               desc="We handle the responsibility of moving your business to Cyprus, so you can focus on your business goals."
@@ -30,7 +30,7 @@ export default function Services() {
           </div>
           <div className="hidden xl:flex">
             <OurServices
-              href="/#"
+              href="/investmentOpportunities"
               cover="../public/assets/images/services_cards_investment_schemes_image.png"
               title="Investment plans"
               desc="Discover the opportunity to further enhance your business ambitions, by choosing the optimal investment plan."
@@ -39,7 +39,7 @@ export default function Services() {
         </div>
         <div className=" xl:hidden">
           <OurServices
-            href="/#"
+            href="/investmentOpportunities"
             cover="../public/assets/images/services_cards_investment_schemes_image.png"
             title="Investment plans"
             desc="Discover the opportunity to further enhance your business ambitions, by choosing the optimal investment plan."
