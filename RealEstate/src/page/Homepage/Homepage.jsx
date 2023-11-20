@@ -175,26 +175,55 @@ export default function Homepage() {
         </div> */}
         <div className="flex items-start gap-[70px] max-[1000px]:flex-col max-[1000px]:items-center min-[1000px]:py-20">
           <div className="w-full relative flex justify-center overflow-hidden">
-            <img className="w-full h-full max-[1000px]:hidden" src="../../../public/assets/images/image-villa2.png" />
+            <img
+              className="w-full h-full max-[1000px]:hidden"
+              src="../../../public/assets/images/image-villa2.png"
+            />
             <div className="absolute top-0 right-0 w-20 h-full bg-color6 bg-opacity-50 max-xl:hidden"></div>
-            <img className="w-full max-md:min-w-[768px] h-full max-md:h-[300px] flex-none min-[1000px]:hidden" src="../../../public/assets/images/image-villas2Big.png" />
+            <img
+              className="w-full max-md:min-w-[768px] h-full max-md:h-[300px] flex-none min-[1000px]:hidden"
+              src="../../../public/assets/images/image-villas2Big.png"
+            />
           </div>
           <div className="flex-none flex flex-col items-center gap-6 max-md:py-10 md:w-[480px] max-md:w-[400px]">
-            <div className="uppercase AvenirNext text-4xl font-semibold text-black leading-10 whitespace-nowrap">Moving to Paradise</div>
+            <div className="uppercase AvenirNext text-4xl font-semibold text-black leading-10 whitespace-nowrap">
+              Moving to Paradise
+            </div>
             <div className="flex flex-col gap-6 text-center AvenirNextLight text-black">
               <p className="leading-6">
-                Have you ever dreamed about the perfect place to live? Your definition of perfect may be different someone else’s. Are you longing to live by the beach and listen to the soothing waves or are you a kind of person who enjoys the bustling sounds of the city? Whatever lifestyle you desire, Cyprus has it all! Whether you’re travelling with your family, your partner, or as a solo business entrepreneur, this exotic island can offer you a little bit of everything.
+                Have you ever dreamed about the perfect place to live? Your
+                definition of perfect may be different someone else’s. Are you
+                longing to live by the beach and listen to the soothing waves or
+                are you a kind of person who enjoys the bustling sounds of the
+                city? Whatever lifestyle you desire, Cyprus has it all! Whether
+                you’re travelling with your family, your partner, or as a solo
+                business entrepreneur, this exotic island can offer you a little
+                bit of everything.
               </p>
               <p className="leading-6">
-                If you’ve made the decision to relocate to Cyprus, then you are expecting to find a safe place to settle. With extremely low crime rate, stunning sandy beaches, and awe-inspiring mountain views, Cyprus is the place to be!
+                If you’ve made the decision to relocate to Cyprus, then you are
+                expecting to find a safe place to settle. With extremely low
+                crime rate, stunning sandy beaches, and awe-inspiring mountain
+                views, Cyprus is the place to be!
               </p>
             </div>
-            <div className="bgShadowFindOut MontserratMedium font-semibold text-color1 text-xl w-[200px] h-12 flex justify-center items-center cursor-pointer">Find Out More</div>
+            <Link
+              to="/migration"
+              className="bgShadowFindOut MontserratMedium font-semibold text-color1 text-xl w-[200px] h-12 flex justify-center items-center cursor-pointer"
+            >
+              Find Out More
+            </Link>
           </div>
           <div className="w-full relative flex justify-center overflow-hidden">
-            <img className="w-full h-full max-[1000px]:hidden" src="../../../public/assets/images/image-villas.png" />
+            <img
+              className="w-full h-full max-[1000px]:hidden"
+              src="../../../public/assets/images/image-villas.png"
+            />
             <div className="absolute top-0 left-0 w-20 h-full bg-color6 bg-opacity-50 max-xl:hidden"></div>
-            <img className="w-full max-md:min-w-[768px] h-full max-md:h-[300px] flex-none min-[1000px]:hidden" src="../../../public/assets/images/image-villaBig.png" />
+            <img
+              className="w-full max-md:min-w-[768px] h-full max-md:h-[300px] flex-none min-[1000px]:hidden"
+              src="../../../public/assets/images/image-villaBig.png"
+            />
           </div>
         </div>
       </section>
