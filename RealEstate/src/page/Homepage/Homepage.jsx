@@ -134,45 +134,6 @@ export default function Homepage() {
       </section>
       {/* Moving to Paradise */}
       <section>
-        {/* <div className="flex justify-center items-center flex-col xl:flex-row xl:py-[80px] gap-[70px] container-Moving-To-Paradise">
-          <div className="flex-shrink-0 flex justify-end  w-full min-[1500px]:w-[430px] min-[1460px]:w-[410px] min-[1400px]:w-[380px] min-[1380px]:w-[360px] min-[1360px]:w-[340px] xl:w-[321px] h-[499.994px] img-left">
-            <div className="w-20 flex-shrink-0 h-[499.998px] hidden xl:flex shadow-left"></div>
-          </div>
-          <div className="xl:w-[480px] w-[482px]  h-[526px] xl:h-[448px] flex flex-col gap-8 ">
-            <span className="title-Move-to-paradise h-8 flex-shrink-0 w-[480px]  text-center not-italic font-semibold leading-7 uppercase">
-              Moving to Paradise
-            </span>
-            <span className="xl:w-[480px] w-[460px] h-[200px] shrink-0 text-justify text-base not-italic font-normal leading-6 text-Moving-To-paradies">
-              Have you ever dreamed about the perfect place to live? Your
-              definition of perfect may be different someone else’s. Are you
-              longing to live by the beach and listen to the soothing waves or
-              are you a kind of person who enjoys the bustling sounds of the
-              city? Whatever lifestyle you desire, Cyprus has it all! Whether
-              you’re travelling with your family, your partner, or as a solo
-              business entrepreneur, this exotic island can offer you a little
-              bit of everything.{" "}
-            </span>
-            <span className="xl:w-[480px] w-[460px] h-[98px] shrink-0 text-center text-base not-italic font-normal leading-6 text-Moving-To-paradies">
-              If you’ve made the decision to relocate to Cyprus, then you are
-              expecting to find a safe place to settle. With extremely low crime
-              rate, stunning sandy beaches, and awe-inspiring mountain views,
-              Cyprus is the place to be!
-            </span>
-            <div className="flexh-12 justify-center items-center w-[480px]">
-              <button className="btn-find flex justify-center items-center mx-32 gap-[20px] py-4 px-5">
-                <Link
-                  to="/migration"
-                  className="btn-link flex w-40 h-4 flex-col justify-center text-center text-xl not-italic font-semibold leading-8"
-                >
-                  Find Out More
-                </Link>
-              </button>
-            </div>
-          </div>
-          <div className="flex-shrink-0   w-full min-[1500px]:w-[430px] min-[1460px]:w-[410px] min-[1400px]:w-[380px] min-[1380px]:w-[360px] min-[1360px]:w-[340px] xl:w-[321px] h-[499.994px] img-right">
-            <div className="w-20 flex-shrink-0 h-[499.998px] hidden xl:flex shadow-left"></div>
-          </div>
-        </div> */}
         <div className="flex items-start gap-[70px] max-[1000px]:flex-col max-[1000px]:items-center min-[1000px]:py-20">
           <div className="w-full relative flex justify-center overflow-hidden">
             <img
