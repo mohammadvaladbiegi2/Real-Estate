@@ -7,7 +7,7 @@ export default function About() {
   window.scroll(0, 0);
   return (
     <>
-      <section className="bg-color1 flex flex-col max-w-[1600px] mx-auto">
+      <section className="bg-color1 flex flex-col max-w-[1600px] mx-auto pt-[120px]">
         <div className="flex">
           <div className="absolute bgShadow h-[280px] min-[1000px]:h-[530px] bg-gradient-to-b min-[1000px]:bg-gradient-to-r from-color6 from-60% via-color7 via-80% to-100% z-10 flex justify-center items-center">
             <span className="AvenirNext uppercase text-4xl font-semibold text-black">

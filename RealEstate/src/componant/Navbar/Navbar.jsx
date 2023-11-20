@@ -12,15 +12,15 @@ export default function Navbar() {
         </div>
         <div className="flex font-AvenirNext items-center gap-[60px] min-[1000px]:gap-[85px] AvenirNext text-color6">
           <div className="flex gap-7 max-[1300px]:hidden AvenirNext uppercase">
-            <Link to="/" className="cursor-pointer">
+            <Link to="/" className="cursor-pointer hover:translate-y-[1.3px] transition-all">
               Home
             </Link>
-            <Link to="/about" className="cursor-pointer">
+            <Link to="/about" className="cursor-pointer hover:translate-y-[1.3px] transition-all">
               AbouT us
             </Link>
             <Link
               to="/services"
-              className="cursor-pointer flex items-center gap-1"
+              className="cursor-pointer hover:translate-y-[1.3px] transition-all flex items-center gap-1"
             >
               Services
               <svg
@@ -33,13 +33,13 @@ export default function Navbar() {
                 <path d="M1 1L5 5L9 1" stroke="white" />
               </svg>
             </Link>
-            <Link to="/investmentOpportunities" className="cursor-pointer">
+            <Link to="/investmentOpportunities" className="cursor-pointer hover:translate-y-[1.3px] transition-all">
               Invest in cyprus
             </Link>
-            <Link to="/migration" className="cursor-pointer">
+            <Link to="/migration" className="cursor-pointer hover:translate-y-[1.3px] transition-all">
               migration
             </Link>
-            <Link to="/contactus" className="cursor-pointer">
+            <Link to="/contactus" className="cursor-pointer hover:translate-y-[1.3px] transition-all">
               Contuct us
             </Link>
           </div>
