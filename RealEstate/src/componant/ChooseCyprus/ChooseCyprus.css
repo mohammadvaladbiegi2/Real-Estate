@@ -1,0 +1,18 @@
+.container-Sections {
+  background: var(
+    --pam_color_linear3,
+    linear-gradient(180deg, #fefc9e -47.89%, #fdbfa3 126.42%)
+  );
+}
+
+.title-firs-text {
+  color: var(--pam_color5, #434364);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: AvenirNext;
+}
+.title-second-text {
+  color: var(--pam_color5, #434364);
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: AvenirNextLight;
+  letter-spacing: 0.5px;
+}
