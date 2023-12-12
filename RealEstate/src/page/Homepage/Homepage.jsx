@@ -40,7 +40,7 @@ export default function Homepage() {
             <span className="title  flex  flex-col justify-center flex-shrink-0 w-[300px] md:w-[400px] text-[15px] not-italic font-semibold leading-10">
               Seamless – Exceptional – Experience
             </span>
-            <span className="txet-title h-32 flex-shrink-0 lg:w-[520px] w-[365px] text-base not-italic font-normal leading-6">
+            <span className="txet-title h-32 flex-shrink-0 lg:w-[520px] w-[330px] sm:w-[380px] text-base not-italic font-normal leading-6">
               The captivating Mediterranean island of Cyprus has become a
               business haven with a flourishing expat community. The strategic
               location that grants networking opportunities and the stability of
@@ -48,7 +48,7 @@ export default function Homepage() {
               thrive.{" "}
             </span>
           </div>
-          <div className="lg:ms-[138px] ms-[15px] flex w-48 h-12 mt-[80px] lg:mt-[20px] justify-center items-center flex-shrink-0">
+          <div className="lg:ms-[138px] ms-[15px] flex w-48 h-12 mt-[115px] lg:mt-[20px] justify-center items-center flex-shrink-0">
             <Link
               to="/migration"
               className="flex justify-center items-center btn-title"
@@ -95,7 +95,7 @@ export default function Homepage() {
           <span className="text-center text-4xl not-italic font-semibold leading-10 uppercase title-Services">
             Our Services
           </span>
-          <hr className="bg-color4 w-[380px] h-1 border-none" />
+          <hr className="bg-color4 w-[320px] sm:w-[380px] h-1 border-none" />
           <div className="flex justify-center items-start gap-[10px] lg:gap-[20px] flex-col md:flex-row">
             <div className="">
               <OurServices
@@ -146,8 +146,8 @@ export default function Homepage() {
               src="../../../public/assets/images/image-villas2Big.png"
             />
           </div>
-          <div className="flex-none flex flex-col items-center gap-6 max-md:py-10 md:w-[480px] max-md:w-[400px]">
-            <div className="uppercase AvenirNext text-4xl font-semibold text-black leading-10 whitespace-nowrap">
+          <div className="flex-none flex flex-col items-center gap-6 max-md:py-10 md:w-[480px] max-md:w-[360px]">
+            <div className="uppercase AvenirNext text-3xl sm:text-4xl font-semibold text-black leading-10 whitespace-nowrap">
               Moving to Paradise
             </div>
             <div className="flex flex-col gap-6 text-center AvenirNextLight text-black">
@@ -256,7 +256,7 @@ export default function Homepage() {
       <section>
         <div className="container-Sections w-full flex  px-[133px] py-[80px] flex-col items-center gap-[60px] ">
           <div className="title w-[410px] md:w-[580px] h-5">
-            <h2 className="title-firs-text   h-[30px] flex-shrink-0 text-center text-3xl md:text-4xl not-italic font-semibold leading-10 uppercase">
+            <h2 className="title-firs-text   h-[30px] flex-shrink-0 text-center text-2xl sm:text-3xl md:text-4xl not-italic font-semibold leading-10 uppercase">
               how we make it happen{" "}
             </h2>
           </div>
@@ -287,7 +287,7 @@ export default function Homepage() {
             />
           </div>
 
-          <div className="container-cards flex xl:hidden mt-[60px]  justify-center items-start gap-[20px]">
+          <div className="container-cards flex xl:hidden mt-[80px]  justify-center items-start gap-[20px]">
             <CardChooseCprus
               cover="../../../public/assets/images/listener.png"
               title="We listen"
@@ -353,25 +353,25 @@ export default function Homepage() {
           </div>
           <div className="container-partners-img  flex  md:hidden items-start gap-5">
             <span className="Partners-img1 flex w-48 h-16 p-4 items-center gap-4"></span>
-            <span className="Partners-img2 flex w-48 h-16 p-4 items-center gap-4"></span>
+            <span className="Partners-img2 flex w-[10rem] h-16 p-4 items-center gap-4"></span>
           </div>
           <div className="container-partners-img  flex  md:hidden items-start gap-5">
             <span className="Partners-img3 flex w-48 h-16 p-4 items-center gap-4"></span>
-            <span className="Partners-img4 flex w-48 h-16 p-4 items-center gap-4"></span>
+            <span className="Partners-img4 flex w-[10rem] h-16 p-4 items-center gap-4"></span>
           </div>
           <div className="container-partners-img  flex  md:hidden items-start gap-5">
             <span className="Partners-img5 flex w-48 h-16 p-4 items-center gap-4"></span>
-            <span className="Partners-img6 flex w-48 h-16 p-4 items-center gap-4"></span>
+            <span className="Partners-img6 flex w-[10rem] h-16 p-4 items-center gap-4"></span>
           </div>
         </div>
       </section>
       {/* Frequently Asked Questions slider */}
       <section>
         <div className=" flex flex-col justify-center items-center w-full gap-14 py-20 bg-color1">
-          <h2 className="title-Frequently-Asked h-8 flex-col justify-center flex-shrink-0 w-[380px] md:w-[610px] text-color6  text-center text-4xl not-italic font-semibold leading-10 uppercase">
+          <h2 className="title-Frequently-Asked h-8 flex-col justify-center flex-shrink-0 w-[380px] md:w-[610px] text-color6  text-center text-3xl sm:text-4xl not-italic font-semibold leading-10 uppercase">
             Frequently Asked Questions
           </h2>
-          <div className="container-slider-card flex items-start gap-5 w-[380px] md:w-[780px] xl:w-[1180px]">
+          <div className="container-slider-card flex items-start gap-5 w-[320px] sm:w-[380px] md:w-[780px] xl:w-[1180px]">
             <Swiper
               pagination={{
                 dynamicBullets: true,

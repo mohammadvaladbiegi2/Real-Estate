@@ -6,7 +6,7 @@ export default function ChooseCyprus() {
   return (
     <section>
       <div className="container-Sections w-full flex  px-[133px] py-[80px] flex-col items-center gap-[60px] ">
-        <div className="title w-[380px] md:w-[580px] h-[144px]">
+        <div className="title w-[340px] sm:w-[380px] md:w-[580px] h-[144px]">
           <h2 className="title-firs-text mb-[60px]  h-[30px] flex-shrink-0 text-center text-4xl not-italic font-semibold leading-10 uppercase">
             Why Choose Cyprus?{" "}
           </h2>
