@@ -1,6 +1,5 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "../../../public/assets/images/logo.png";
 import { Link } from "react-router-dom";
 
 export default function Navbar() {
@@ -8,14 +7,20 @@ export default function Navbar() {
     <section className="w-full fixed z-20">
       <div className="flex justify-between px-[50px] min-[480px]:px-[110px] items-center bg- h-[120px] w-full sticky bg-gradient-to-r from-color5 to-color1">
         <div className="w-[100px] md:w-[120px]">
-          <img src={logo} className="w-full" />
+          <img src="/assets/images/logo.png" className="w-full" />
         </div>
         <div className="flex font-AvenirNext items-center gap-[60px] min-[1000px]:gap-[85px] AvenirNext text-color6">
           <div className="flex gap-7 max-[1300px]:hidden AvenirNext uppercase">
-            <Link to="/" className="cursor-pointer hover:translate-y-[1.3px] transition-all">
+            <Link
+              to="/"
+              className="cursor-pointer hover:translate-y-[1.3px] transition-all"
+            >
               Home
             </Link>
-            <Link to="/about" className="cursor-pointer hover:translate-y-[1.3px] transition-all">
+            <Link
+              to="/about"
+              className="cursor-pointer hover:translate-y-[1.3px] transition-all"
+            >
               AbouT us
             </Link>
             <Link
@@ -33,13 +38,22 @@ export default function Navbar() {
                 <path d="M1 1L5 5L9 1" stroke="white" />
               </svg>
             </Link>
-            <Link to="/investmentOpportunities" className="cursor-pointer hover:translate-y-[1.3px] transition-all">
+            <Link
+              to="/investmentOpportunities"
+              className="cursor-pointer hover:translate-y-[1.3px] transition-all"
+            >
               Invest in cyprus
             </Link>
-            <Link to="/migration" className="cursor-pointer hover:translate-y-[1.3px] transition-all">
+            <Link
+              to="/migration"
+              className="cursor-pointer hover:translate-y-[1.3px] transition-all"
+            >
               migration
             </Link>
-            <Link to="/contactus" className="cursor-pointer hover:translate-y-[1.3px] transition-all">
+            <Link
+              to="/contactus"
+              className="cursor-pointer hover:translate-y-[1.3px] transition-all"
+            >
               Contuct us
             </Link>
           </div>
